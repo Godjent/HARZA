@@ -1,0 +1,22 @@
+{
+  "name": "harza",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "vite-plugin-glsl": "^1.3.1",
+    "vite-plugin-restart": "^0.4.1"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "gsap": "^3.12.5",
+    "lil-gui": "^0.19.2",
+    "three": "^0.172.0",
+    "vite": "^6.0.7"
+  }
+}
